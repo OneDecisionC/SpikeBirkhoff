@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spikebirkhoff"
+version = "0.1.0"
+description = "Paper companion for dual-stream routing in spiking transformers"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [{name = "Zhiqi Cai"}]
+dependencies = ["numpy<2", "PyYAML>=6", "torch>=1.13,<2.3", "torchvision>=0.14,<0.18", "timm==0.6.12", "spikingjelly==0.0.0.0.12", "torchinfo>=1.7,<2", "scipy>=1.8"]
+
+[project.optional-dependencies]
+test = ["pytest>=7,<9"]
+
+[project.urls]
+Repository = "https://github.com/OneDecisionC/SpikeBirkhoff"
+Issues = "https://github.com/OneDecisionC/SpikeBirkhoff/issues"
+
+[project.scripts]
+spikebirkhoff-train = "spikebirkhoff.train:main"
+spikebirkhoff-evaluate = "spikebirkhoff.evaluate:main"
+spikebirkhoff-summarize = "spikebirkhoff.summarize:main"
+spikebirkhoff-prepare-ncaltech = "spikebirkhoff.prepare_ncaltech:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools]
+license-files = ["LICENSE", "LICENSES/*.txt", "THIRD_PARTY_NOTICES.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "configurations": [
+    {
+      "id": "cifar100_d8_t4",
+      "config": "configs/cifar100_d8_t4.yaml",
+      "methods": [
+        "standard",
+        "birkhoff",
+        "unconstrained",
+        "row_projected",
+        "ds_projected",
+        "fixed_A0",
+        "fixed_I",
+        "fixed_J"
+      ],
+      "seed": 42
+    },
+    {
+      "id": "cifar100_d8_t2",
+      "config": "configs/cifar100_d8_t2.yaml",
+      "methods": [
+        "standard",
+        "birkhoff",
+        "fixed_I",
+        "unconstrained"
+      ],
+      "seed": 42
+    },
+    {
+      "id": "cifar100_d16_t2",
+      "config": "configs/cifar100_d16_t2.yaml",
+      "methods": [
+        "standard",
+        "birkhoff",
+        "fixed_I",
+        "unconstrained"
+      ],
+      "seed": 42
+    },
+    {
+      "id": "cifar100_d16_t4",
+      "config": "configs/cifar100_d16_t4.yaml",
+      "methods": [
+        "standard",
+        "birkhoff",
+        "fixed_I",
+        "unconstrained"
+      ],
+      "seed": 42
+    },
+    {
+      "id": "cifar10_d6_t4",
+      "config": "configs/cifar10_d6_t4.yaml",
+      "methods": [
+        "standard",
+        "birkhoff",
+        "fixed_I",
+        "fixed_A0"
+      ],
+      "seed": 42
+    },
+    {
+      "id": "cifar10_d6_t2",
+      "config": "configs/cifar10_d6_t2.yaml",
+      "methods": [
+        "standard",
+        "birkhoff",
+        "fixed_I",
+        "unconstrained"
+      ],
+      "seed": 42
+    },
+    {
+      "id": "ncaltech101_d2_t16",
+      "config": "configs/ncaltech101_d2_t16.yaml",
+      "methods": [
+        "standard",
+        "birkhoff",
+        "fixed_A0",
+        "fixed_I"
+      ],
+      "seed": 42
+    }
+  ]
+}

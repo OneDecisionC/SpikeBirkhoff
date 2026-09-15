@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: >-
+  If you use SpikeBirkhoff in your research, please cite the manuscript below.
+  See THIRD_PARTY_NOTICES.md for upstream research and software attribution.
+type: software
+title: SpikeBirkhoff
+version: 0.1.0
+repository-code: "https://github.com/OneDecisionC/SpikeBirkhoff"
+url: "https://github.com/OneDecisionC/SpikeBirkhoff"
+authors:
+  - family-names: Cai
+    given-names: Zhiqi
+license: MIT
+abstract: >-
+  Research code for SpikeBirkhoff: Attributing Dual-Stream Gains in Spiking
+  Transformers. The MIT license covers original project additions;
+  adapted third-party portions retain their upstream notices and terms.
+keywords:
+  - spiking neural networks
+  - spiking transformers
+  - dual-stream attribution
+preferred-citation:
+  type: unpublished
+  title: "SpikeBirkhoff: Attributing Dual-Stream Gains in Spiking Transformers"
+  authors:
+    - family-names: Cai
+      given-names: Zhiqi
+  year: 2026
+  notes: Manuscript/preprint.

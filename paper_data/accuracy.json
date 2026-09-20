@@ -1,0 +1,1125 @@
+{
+  "sd_ddof": 1,
+  "records": [
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 72.96,
+      "checkpoint_sha256": "a5da19420494605ceac7dff815aefca3b1eaf9501a4d3c4d1bfa5ec04e69c87e"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 72.94,
+      "checkpoint_sha256": "9e36392b5914b5c2aa34b6333f22713d0f20f4b13747a2dad31fd9a62fe7be3f"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 73.12,
+      "checkpoint_sha256": "7e56f9353e488fd2531ac65f75c114c1e3775b5f9cb25a76226c01bb78d837e1"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 72.94,
+      "checkpoint_sha256": "7f94a6b43393da719931ef126341e1c7a29d259f1d3789f70889f52f4698582b"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 72.12,
+      "checkpoint_sha256": "866d3da8b59d75c0cc3ad5ea35a75e46582330fa6a8a5317e7766a617e33aa5d"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 73.7,
+      "checkpoint_sha256": "6a142e383c2f8e33364e3c096b298bf786e05ce7ed78fac0a6012c5e2b07a3f0"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 73.76,
+      "checkpoint_sha256": "767bbdbebfd77302d48c9e067e8705cbf067518f178c283d15e240b9e41f0764"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 73.68,
+      "checkpoint_sha256": "5313d9222b4f5c9389c6428e93a1418540b064ba39079d7b13d1940b5c9486bc"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 73.36,
+      "checkpoint_sha256": "08e38ba49162852acaa11d2e026a62f02fe03c0de0419a4ee6be1fa105dabee3"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 74.2,
+      "checkpoint_sha256": "6d86fd6fe1fa9b2a109ad60d826b653c2d49d8447a5d4336cfbd4447a8133b8d"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 73.2,
+      "checkpoint_sha256": "58354ad711c71c0c3ef90b419408843e13d3274bcde2e2349135cb0d9b97f357"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 74.28,
+      "checkpoint_sha256": "afbd32365b81e8c6618a7eb1210ff9e0c4e7b5888310f9b699c480b66e5e4bc0"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 73.86,
+      "checkpoint_sha256": "ead8a9fc51a693c7a3bb0ba287fbe9ec62521bccab4fb899973e2108462bacbb"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 74.64,
+      "checkpoint_sha256": "47cd437eba40496827cccc2cf94aefcb28368854431cb23f97e175ecd494f73b"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 73.4,
+      "checkpoint_sha256": "69188c76b5b3785515464ed89c5a2e89b43b1f5725a40f7829b8d922700b3072"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 73.6,
+      "checkpoint_sha256": "fb6812e0fd7e225907898e574c31a2201bb9585b777a22116af2eddb3107cfc9"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 73.9,
+      "checkpoint_sha256": "bbada1777c9bf3dd8d0e9b9a75b8195b0ccf325ddcaf2ce2f0658af7f1298276"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 74.0,
+      "checkpoint_sha256": "a5fa062d0d101b1d32818f4e51f5c6a0b0962f8ab99050afc1951ae67ff8a4a0"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 73.76,
+      "checkpoint_sha256": "adc288b39d00b66fd3193b4d02ce88962ed38b49415b310f3a5c5536e719b143"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 73.14,
+      "checkpoint_sha256": "a79d1ce4c0d5b6e0a65e46eaf89c32b8dc903d7347b79358e5543dfb7dba4822"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 73.46,
+      "checkpoint_sha256": "8a5b76cae04412f31aac23662f982c4c777ac409c9fbb7e9264b2f8340eb1d3e"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 73.64,
+      "checkpoint_sha256": "e7d3f2e1c34be989002ff98d907fd12d08a8196d35c4b973a5710844b5c4427b"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 73.04,
+      "checkpoint_sha256": "c11a10d1e31aaabecdbbda6bf76d2dfa389c44806510674275ab9f4b12e09bc3"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 74.04,
+      "checkpoint_sha256": "95faa3c938afe0aebf35bc224746d2ee47fe8b75f16e4b618331a6a33fe2b646"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 73.5,
+      "checkpoint_sha256": "070b01dfe70a85016bef40804459419a5b013d03f3c050b0530eb8c85bc1f575"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 73.3,
+      "checkpoint_sha256": "fb26ff911867a1c051719de07be557a45ae48fc2910dbd9f6d5ae0ec7e253947"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 72.86,
+      "checkpoint_sha256": "e076943ce54530b0eb73d12d0a85e00bcdf805c2131883f82a07f59c1f67f08a"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 72.82,
+      "checkpoint_sha256": "4210080e3012a88b97ee5cb74e34669c42d0d0ed4f1390fa4c88da3599cf5e60"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 73.0,
+      "checkpoint_sha256": "1b304f532732c4e5d6709e98ea20376b2db99797458332545b31f955a4cbff27"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 73.8,
+      "checkpoint_sha256": "56910483c4e60c4c7993e08439abbb6c92ad48ea85732b8f9d5f185577cd5ac1"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 73.74,
+      "checkpoint_sha256": "fde6d9cd375a0b378a7230eadbcc012c285769f248241d8e3b49064261b563d8"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 74.14,
+      "checkpoint_sha256": "9137e87b97e767a1514b377b9f9bf26e48e672ce5dd2fc8b20ff589fb86308b1"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 73.78,
+      "checkpoint_sha256": "bfcaf525324e1c03c436a6a4af901bf2245a7a156655b46ef85e59612f3bd757"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 73.36,
+      "checkpoint_sha256": "fefff3cf2f11da95175a490afbaf2a16bf161e303da34914357a87e0b59880ca"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 73.74,
+      "checkpoint_sha256": "1dba56266cc8155b96750ddd7e57ef994592ec5937c51e9c60d25e18194081c0"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 73.3,
+      "checkpoint_sha256": "cbe05860ecdb33766aae3ce949c3d1763379fee2d0e88eead0e4e1c37d9e3d24"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 73.0,
+      "checkpoint_sha256": "66aaea5889d455fbbb61098b33ac90b136785bb65023744f490e958c8296d8df"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 73.22,
+      "checkpoint_sha256": "9443706207b2879a45b9e7a3496f3195af2cd32924cdda9ff68b113da0cbee2f"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 73.56,
+      "checkpoint_sha256": "f8baae92e388f7f95313b037c8875226b88bfa6ae7de67351513bcd66fb21258"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 72.56,
+      "checkpoint_sha256": "169d1b6b374a68731d50d90a44c5f2fcbe04af283b7fc612dba15d7578a53835"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "S",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 94.14,
+      "checkpoint_sha256": "f23d469c5ea53ff1871b7702fefdacee6928b1b4873cbad08085062f96ba14eb"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "S",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 94.1,
+      "checkpoint_sha256": "d9e2ff64e99ea710fea29857d1b55daa29ee868df54530a75270da1b009f0567"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "S",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 94.22,
+      "checkpoint_sha256": "53e5bf880cd01f3e1cca913bedd843e93a394a276681c9b94f3514a9d69d4155"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "B",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 94.1,
+      "checkpoint_sha256": "57d89b4c4d3f537e6c9aa5f33f63bf1b4db870cffdc1b4d7e03df9e64ed79e1b"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "B",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 94.14,
+      "checkpoint_sha256": "2b866ee0a405adfef940612555840a7734dd180a176dda66fd214237a2b4c6d8"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "B",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 94.2,
+      "checkpoint_sha256": "7adeec991610365ef75a81a3984a75e24a876a0ef376974fb92d3a6e8c3e77c0"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "I",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 94.3,
+      "checkpoint_sha256": "5a406b54018dbd3cfdf656d3e60100ca9a4f74363eae1607d3cd6ff26a6e9927"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "I",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 94.26,
+      "checkpoint_sha256": "3f9c58ad24cfd09d6e76f9bbbe5129a38877c3baeb7959649954afc1d68caa08"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "I",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 94.2,
+      "checkpoint_sha256": "b6490d69731884c664e545ebc595a074572d271d5a922e5122d1220ce190906f"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "A0",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 94.54,
+      "checkpoint_sha256": "757758678a49ecd9f2efd1208cab82aecf254df7fad1aa09a3877f88813afa59"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "A0",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 94.0,
+      "checkpoint_sha256": "89371b21f6a0ca414e7407ad3dfcbd0bf318a0deb1267731daaec85d08754a97"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "A0",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 94.28,
+      "checkpoint_sha256": "ca9d9ac981d37f1978cc8c41ff0ce680bce56c31e8340ec85696a621b47f56d0"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "S",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 94.48,
+      "checkpoint_sha256": "b2d79addb1f678e05faedf370a22b650da1840dbfc8ea7792d9b93c7bb5ea89d"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "S",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 94.34,
+      "checkpoint_sha256": "1d2e4cff063f5bb899023b5dc4ef59ad9e7503bfd275f7232fdc7d7b9ad44bb1"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "I",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 94.42,
+      "checkpoint_sha256": "a02da3bb82094a4a6d7de775d205dac9f398275b26130ab9b67a86a6343e5b95"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "I",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 94.08,
+      "checkpoint_sha256": "f5ab6e8059b96820cb574ae645998b5926e296046067d749824912076933b407"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "B",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 94.42,
+      "checkpoint_sha256": "5a4b69cd804d0c389ab17aeef0c5c4ae677037a867f5b5d836f568c9efe55ca4"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "B",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 94.62,
+      "checkpoint_sha256": "81df724368d7fcc4719a8b4f0b74f5360bc6e3c1b9fb9b419b000d16b4a3791f"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "A0",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 94.66,
+      "checkpoint_sha256": "b873ac9debcdd7ed4742138e4c9e4d2a7255849d1ea1b161dddc8dbf57e89d7e"
+    },
+    {
+      "config": "cifar10_d6_t4",
+      "method": "A0",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 93.84,
+      "checkpoint_sha256": "59adec9f2bc14285b5ac305fdb2923161d8c09f3632bd8b9edd22a23cee5baa9"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "S",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 79.04328018223235,
+      "checkpoint_sha256": "c07facc1fb8eeedb44b4130be51ae4a5d99ad418c5096435a33da885dce2b70c"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "S",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 78.35990888382688,
+      "checkpoint_sha256": "5a584e71d7847463ebb0a7046e318a3a4a402ae7f0b25ad3f1eb141a95ca519a"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "S",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 81.09339407744875,
+      "checkpoint_sha256": "334de61d015a90cf522cd9797d74ac7884a5cde2e92bfdea01d1b647bd8bab5f"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "B",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 79.04328018223235,
+      "checkpoint_sha256": "2ded0dc712549353624b8119c12d88fbb96908a405358f762b7ef62fc4dbd0da"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "B",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 80.6378132118451,
+      "checkpoint_sha256": "168a722c9797bc1a9e3f6a9177cc1fa50ef45f32d0626b67d6435b2fe7a75a91"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "B",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 79.95444191343964,
+      "checkpoint_sha256": "1bbf238b2c96d12d7effded330333ff7ecca626d8ba24a98db90dc8d40c62025"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "I",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 79.6127562642369,
+      "checkpoint_sha256": "1842f30b62d2c848dab3f3e8f760d2773d9e8bd0f447d1cf6d2431e04c67f0c2"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "I",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 79.95444191343964,
+      "checkpoint_sha256": "88df3eb15916924d85d0b53eb37ccceee8d00afad8ebf72856612de38f7d5597"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "I",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 79.38496583143508,
+      "checkpoint_sha256": "84e97da5fef17f17dce248ef7945b6ec5a96f21a8d4de7a90f098eed5fedd26a"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "A0",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 78.35990888382688,
+      "checkpoint_sha256": "601ad745feb02fc037b953e3b67ea1b9e14815765477327d676ccb954a8ae5da"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "A0",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 80.75170842824602,
+      "checkpoint_sha256": "bbb703e189dfd8b47689507616f013a67f456fb7e790b1bc80f787a396530411"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "A0",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 80.06833712984054,
+      "checkpoint_sha256": "4ec3fabe81f5611de06bd02075ee6dd5736bbaa9834b176a421f6bb295456113"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "S",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 80.18223234624146,
+      "checkpoint_sha256": "07ac12bd14cd9ca0db2588df30719a8b2904e8a54425c8696b8840ccbbc29a5f"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "S",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 80.5239179954442,
+      "checkpoint_sha256": "5283053e191cc4c324ffc0d4f8f544787fee519dc405011a3a55ab3e1a1e3d0e"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "A0",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 79.95444191343964,
+      "checkpoint_sha256": "024b2821990b8c015ec09247b529b97e0cdef597eb764ac30d684e4e1025e975"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "A0",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 80.41002277904327,
+      "checkpoint_sha256": "06a08957a40f819e5152d361da775bf9d7aa8e8798ae4b9f8049f1964d72547e"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "B",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 79.72665148063781,
+      "checkpoint_sha256": "631c35999fa24e507dc9cf28c5743e63f67ff889c21cac93df90d46ac5e10b69"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "B",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 79.38496583143508,
+      "checkpoint_sha256": "7ef4f0843b5eed451d34758c8ada780441d5536e46c742f70aa4588b76eaeaed"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "I",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 77.33485193621868,
+      "checkpoint_sha256": "764c982305dab0531cbde7526acc58600b1e345bf97d654b91f8a9e5cbbcf00b"
+    },
+    {
+      "config": "ncaltech101_d2_t16",
+      "method": "I",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 80.29612756264237,
+      "checkpoint_sha256": "5d677a82a696d18224fdcf5b1137655c7607b0923df2c0b83d7ad5f6bcced8f2"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "A0",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 76.4,
+      "checkpoint_sha256": "e79b01dcb105561b2cdfdff77f53f8b308b175956d2b5d0e87862aca71188fd3"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "B",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 74.9,
+      "checkpoint_sha256": "918e40041a259065584a7c7821e8111f95f9eb32120510e9296abcccb65ae362"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "S",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 76.5,
+      "checkpoint_sha256": "bfbde6ea63e156b138e5b11b1242bccb5403ef1cb4c74d9fe3d6d423b6da4fcc"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "A0",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 78.0,
+      "checkpoint_sha256": "df2709c4c27b6a512680d7467ecabc9aa542c04448ea77778c9448bf25ec49a7"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "B",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 75.3,
+      "checkpoint_sha256": "3f0cb785f6274ed8cd0253f2f8e2923310b4938d3a79fb613d95cf4863715f07"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "S",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 74.4,
+      "checkpoint_sha256": "1b8e8cd24bedebd38a8b2684c7a141f906f9730a071d918fe43185e3e224e478"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "A0",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 76.1,
+      "checkpoint_sha256": "6a7707b44296b62b894765afa2dccb01617c69e36230040b3e832e3978573f7b"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "I",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 78.5,
+      "checkpoint_sha256": "8d6a59e76478c233fe7735c6a88f4bc151acc884209f7fc7c88be891c2cef573"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "S",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 77.6,
+      "checkpoint_sha256": "428c9a7b3ce2ac30a2118617f8fe97b2ae868fae023c7a0490e4a1967346c19f"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "A0",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 75.0,
+      "checkpoint_sha256": "fc00d8d6b4ad9c13504b7863fa06c7fb707a2e52ed988eb21b4bd0c22a278a60"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "I",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 73.4,
+      "checkpoint_sha256": "17e924898332dc4b23f7f28a21e5b38ac115bce5804e14b6b5e79435fe70d982"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "S",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 75.4,
+      "checkpoint_sha256": "990c84265fe8b5d6243339d41e3f0032e32e3e6dea3b1c8ce491d158f84220d2"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "A0",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 75.8,
+      "checkpoint_sha256": "0747a1302fef6226d952e23a9a4b803101f21800ec891803e8c3f3b420c7ded6"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "I",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 76.8,
+      "checkpoint_sha256": "ecfac784ccea580e5a6b15a9f60e62632515aa9e5b945627fcebcd60d022bc99"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "B",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 76.6,
+      "checkpoint_sha256": "18294f5fd885e81bae6d00441dd56ab0afacbf8ea3351598fc63b99fff151d27"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "I",
+      "seed": 45,
+      "set": "H",
+      "accuracy": 76.0,
+      "checkpoint_sha256": "4340748e33a8c0877de122154579d90463e4572180a0ec4f705f88e3f8bc1146"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "B",
+      "seed": 43,
+      "set": "H",
+      "accuracy": 76.5,
+      "checkpoint_sha256": "4498f2c8aa7360ceb9cecb83b81ef1a6dfed813a0a2bda769cedfb000007af5a"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "I",
+      "seed": 46,
+      "set": "H",
+      "accuracy": 75.3,
+      "checkpoint_sha256": "716d9bb4b76bfd9a99c0980a9f9098913b25df1f163482dc7f1d290ebc806787"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "B",
+      "seed": 44,
+      "set": "H",
+      "accuracy": 76.8,
+      "checkpoint_sha256": "35feac1384cc1d873c7c7e24bc4163918736c9b4b4d4164076536669561b94e6"
+    },
+    {
+      "config": "cifar10dvs_d2_t16",
+      "method": "S",
+      "seed": 42,
+      "set": "H",
+      "accuracy": 75.8,
+      "checkpoint_sha256": "1c1c656c00b6ef4440294b3d1cb9a5cd50887938c2bd8a6d1baced31a05330cf"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 42,
+      "set": "O",
+      "accuracy": 73.39,
+      "checkpoint_sha256": "a5da19420494605ceac7dff815aefca3b1eaf9501a4d3c4d1bfa5ec04e69c87e"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 43,
+      "set": "O",
+      "accuracy": 72.2,
+      "checkpoint_sha256": "866d3da8b59d75c0cc3ad5ea35a75e46582330fa6a8a5317e7766a617e33aa5d"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 44,
+      "set": "O",
+      "accuracy": 73.68,
+      "checkpoint_sha256": "08e38ba49162852acaa11d2e026a62f02fe03c0de0419a4ee6be1fa105dabee3"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 42,
+      "set": "O",
+      "accuracy": 74.34,
+      "checkpoint_sha256": "ead8a9fc51a693c7a3bb0ba287fbe9ec62521bccab4fb899973e2108462bacbb"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 43,
+      "set": "O",
+      "accuracy": 74.11,
+      "checkpoint_sha256": "bbada1777c9bf3dd8d0e9b9a75b8195b0ccf325ddcaf2ce2f0658af7f1298276"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 44,
+      "set": "O",
+      "accuracy": 74.12,
+      "checkpoint_sha256": "8a5b76cae04412f31aac23662f982c4c777ac409c9fbb7e9264b2f8340eb1d3e"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 43,
+      "set": "O",
+      "accuracy": 73.38,
+      "checkpoint_sha256": "9e36392b5914b5c2aa34b6333f22713d0f20f4b13747a2dad31fd9a62fe7be3f"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 44,
+      "set": "O",
+      "accuracy": 73.41,
+      "checkpoint_sha256": "6a142e383c2f8e33364e3c096b298bf786e05ce7ed78fac0a6012c5e2b07a3f0"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 42,
+      "set": "O",
+      "accuracy": 73.53,
+      "checkpoint_sha256": "6d86fd6fe1fa9b2a109ad60d826b653c2d49d8447a5d4336cfbd4447a8133b8d"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 43,
+      "set": "O",
+      "accuracy": 73.75,
+      "checkpoint_sha256": "47cd437eba40496827cccc2cf94aefcb28368854431cb23f97e175ecd494f73b"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 44,
+      "set": "O",
+      "accuracy": 73.76,
+      "checkpoint_sha256": "a5fa062d0d101b1d32818f4e51f5c6a0b0962f8ab99050afc1951ae67ff8a4a0"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 42,
+      "set": "O",
+      "accuracy": 73.28,
+      "checkpoint_sha256": "e7d3f2e1c34be989002ff98d907fd12d08a8196d35c4b973a5710844b5c4427b"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 44,
+      "set": "O",
+      "accuracy": 73.3,
+      "checkpoint_sha256": "7e56f9353e488fd2531ac65f75c114c1e3775b5f9cb25a76226c01bb78d837e1"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 42,
+      "set": "O",
+      "accuracy": 73.32,
+      "checkpoint_sha256": "767bbdbebfd77302d48c9e067e8705cbf067518f178c283d15e240b9e41f0764"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 43,
+      "set": "O",
+      "accuracy": 73.72,
+      "checkpoint_sha256": "58354ad711c71c0c3ef90b419408843e13d3274bcde2e2349135cb0d9b97f357"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 44,
+      "set": "O",
+      "accuracy": 73.49,
+      "checkpoint_sha256": "69188c76b5b3785515464ed89c5a2e89b43b1f5725a40f7829b8d922700b3072"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 42,
+      "set": "O",
+      "accuracy": 73.59,
+      "checkpoint_sha256": "adc288b39d00b66fd3193b4d02ce88962ed38b49415b310f3a5c5536e719b143"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 43,
+      "set": "O",
+      "accuracy": 73.2,
+      "checkpoint_sha256": "c11a10d1e31aaabecdbbda6bf76d2dfa389c44806510674275ab9f4b12e09bc3"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 42,
+      "set": "O",
+      "accuracy": 73.82,
+      "checkpoint_sha256": "7f94a6b43393da719931ef126341e1c7a29d259f1d3789f70889f52f4698582b"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 43,
+      "set": "O",
+      "accuracy": 73.52,
+      "checkpoint_sha256": "5313d9222b4f5c9389c6428e93a1418540b064ba39079d7b13d1940b5c9486bc"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 44,
+      "set": "O",
+      "accuracy": 74.33,
+      "checkpoint_sha256": "afbd32365b81e8c6618a7eb1210ff9e0c4e7b5888310f9b699c480b66e5e4bc0"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 42,
+      "set": "O",
+      "accuracy": 73.64,
+      "checkpoint_sha256": "fb6812e0fd7e225907898e574c31a2201bb9585b777a22116af2eddb3107cfc9"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 43,
+      "set": "O",
+      "accuracy": 73.5,
+      "checkpoint_sha256": "a79d1ce4c0d5b6e0a65e46eaf89c32b8dc903d7347b79358e5543dfb7dba4822"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 44,
+      "set": "O",
+      "accuracy": 74.1,
+      "checkpoint_sha256": "95faa3c938afe0aebf35bc224746d2ee47fe8b75f16e4b618331a6a33fe2b646"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 45,
+      "set": "O",
+      "accuracy": 73.31,
+      "checkpoint_sha256": "070b01dfe70a85016bef40804459419a5b013d03f3c050b0530eb8c85bc1f575"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 46,
+      "set": "O",
+      "accuracy": 73.49,
+      "checkpoint_sha256": "4210080e3012a88b97ee5cb74e34669c42d0d0ed4f1390fa4c88da3599cf5e60"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 45,
+      "set": "O",
+      "accuracy": 73.11,
+      "checkpoint_sha256": "fde6d9cd375a0b378a7230eadbcc012c285769f248241d8e3b49064261b563d8"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 46,
+      "set": "O",
+      "accuracy": 74.17,
+      "checkpoint_sha256": "fefff3cf2f11da95175a490afbaf2a16bf161e303da34914357a87e0b59880ca"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 45,
+      "set": "O",
+      "accuracy": 73.44,
+      "checkpoint_sha256": "66aaea5889d455fbbb61098b33ac90b136785bb65023744f490e958c8296d8df"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 46,
+      "set": "O",
+      "accuracy": 73.78,
+      "checkpoint_sha256": "169d1b6b374a68731d50d90a44c5f2fcbe04af283b7fc612dba15d7578a53835"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "S",
+      "seed": 46,
+      "set": "O",
+      "accuracy": 73.72,
+      "checkpoint_sha256": "fb26ff911867a1c051719de07be557a45ae48fc2910dbd9f6d5ae0ec7e253947"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 45,
+      "set": "O",
+      "accuracy": 74.13,
+      "checkpoint_sha256": "1b304f532732c4e5d6709e98ea20376b2db99797458332545b31f955a4cbff27"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "I",
+      "seed": 46,
+      "set": "O",
+      "accuracy": 73.88,
+      "checkpoint_sha256": "9137e87b97e767a1514b377b9f9bf26e48e672ce5dd2fc8b20ff589fb86308b1"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 45,
+      "set": "O",
+      "accuracy": 73.33,
+      "checkpoint_sha256": "1dba56266cc8155b96750ddd7e57ef994592ec5937c51e9c60d25e18194081c0"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "A0",
+      "seed": 46,
+      "set": "O",
+      "accuracy": 73.64,
+      "checkpoint_sha256": "9443706207b2879a45b9e7a3496f3195af2cd32924cdda9ff68b113da0cbee2f"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "S",
+      "seed": 45,
+      "set": "O",
+      "accuracy": 72.94,
+      "checkpoint_sha256": "e076943ce54530b0eb73d12d0a85e00bcdf805c2131883f82a07f59c1f67f08a"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "I",
+      "seed": 46,
+      "set": "O",
+      "accuracy": 73.62,
+      "checkpoint_sha256": "56910483c4e60c4c7993e08439abbb6c92ad48ea85732b8f9d5f185577cd5ac1"
+    },
+    {
+      "config": "cifar100_d8_t4",
+      "method": "B",
+      "seed": 45,
+      "set": "O",
+      "accuracy": 73.67,
+      "checkpoint_sha256": "bfcaf525324e1c03c436a6a4af901bf2245a7a156655b46ef85e59612f3bd757"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "B",
+      "seed": 46,
+      "set": "O",
+      "accuracy": 72.61,
+      "checkpoint_sha256": "cbe05860ecdb33766aae3ce949c3d1763379fee2d0e88eead0e4e1c37d9e3d24"
+    },
+    {
+      "config": "cifar100_d16_t4",
+      "method": "A0",
+      "seed": 45,
+      "set": "O",
+      "accuracy": 73.45,
+      "checkpoint_sha256": "f8baae92e388f7f95313b037c8875226b88bfa6ae7de67351513bcd66fb21258"
+    }
+  ]
+}

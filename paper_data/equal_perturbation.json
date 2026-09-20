@@ -1,0 +1,1581 @@
+{
+  "source_sha256": "b4b421a7acf8b7bc78aaead83e4753ead0150090cef808e203f15effea3cf904",
+  "sd_ddof": 1,
+  "records": [
+    {
+      "configuration": "CIFAR-100 FP32",
+      "seed": 42,
+      "depth": 8,
+      "metrics": {
+        "B": {
+          "samples": 5000,
+          "accuracy_percent": 74.08,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.6,
+          "prediction_disagreement_percent": 10.3,
+          "relative_logit_fro": 0.13466748595237732,
+          "mean_abs_probability_change": 0.0021926029585301876,
+          "accuracy_delta_pp": -0.480000000000004,
+          "next_input_relative_fro": 0.00011794159651700903,
+          "max_input_relative_fro": 0.7242744590368563,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.00011794159651700903,
+            "2": 0.0658061193186287,
+            "3": 0.19850733868000203,
+            "4": 0.33199284907750726,
+            "5": 0.4390137062517791,
+            "6": 0.581528723440278,
+            "7": 0.7242744590368563
+          },
+          "downstream_sampled_flip_percent": 5.425782199040331,
+          "downstream_margin_delta_rms": 0.43495398400821444
+        },
+        "layer_1_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.94,
+          "prediction_disagreement_percent": 10.28,
+          "relative_logit_fro": 0.1347087323665619,
+          "mean_abs_probability_change": 0.0022018232848495245,
+          "accuracy_delta_pp": -0.14000000000000057,
+          "next_input_relative_fro": 0.005585150458028368,
+          "max_input_relative_fro": 0.7222056301753801,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.005585150458028368,
+            "3": 0.18051726144970662,
+            "4": 0.32512622986306233,
+            "5": 0.43396790817029485,
+            "6": 0.5777594822163147,
+            "7": 0.7222056301753801
+          },
+          "downstream_sampled_flip_percent": 6.304557955994898,
+          "downstream_margin_delta_rms": 0.46786852170523796
+        },
+        "layer_2_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.28,
+          "prediction_disagreement_percent": 8.98,
+          "relative_logit_fro": 0.12513302266597748,
+          "mean_abs_probability_change": 0.002009279327467084,
+          "accuracy_delta_pp": 0.20000000000000284,
+          "next_input_relative_fro": 0.008610720815211602,
+          "max_input_relative_fro": 0.663336369270036,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.008610720815211602,
+            "4": 0.20336143583981942,
+            "5": 0.3358025699717382,
+            "6": 0.49639182600353254,
+            "7": 0.663336369270036
+          },
+          "downstream_sampled_flip_percent": 5.8462434452947845,
+          "downstream_margin_delta_rms": 0.4509057551997597
+        },
+        "layer_3_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.64,
+          "prediction_disagreement_percent": 7.84,
+          "relative_logit_fro": 0.11346190422773361,
+          "mean_abs_probability_change": 0.0017405985854566097,
+          "accuracy_delta_pp": -0.4399999999999977,
+          "next_input_relative_fro": 0.01043337186606537,
+          "max_input_relative_fro": 0.5912000821248588,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.01043337186606537,
+            "5": 0.20045417526723894,
+            "6": 0.3932910012023556,
+            "7": 0.5912000821248588
+          },
+          "downstream_sampled_flip_percent": 5.316542714090844,
+          "downstream_margin_delta_rms": 0.4298572814808577
+        },
+        "layer_4_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.18,
+          "prediction_disagreement_percent": 6.08,
+          "relative_logit_fro": 0.10071038454771042,
+          "mean_abs_probability_change": 0.0015063481405377388,
+          "accuracy_delta_pp": 0.10000000000000853,
+          "next_input_relative_fro": 0.010246125247221861,
+          "max_input_relative_fro": 0.496457794467391,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.010246125247221861,
+            "6": 0.24950355727239654,
+            "7": 0.496457794467391
+          },
+          "downstream_sampled_flip_percent": 4.648193912981859,
+          "downstream_margin_delta_rms": 0.40015579302688964
+        },
+        "layer_5_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.32,
+          "prediction_disagreement_percent": 4.14,
+          "relative_logit_fro": 0.08050147444009781,
+          "mean_abs_probability_change": 0.0010928845731541514,
+          "accuracy_delta_pp": 0.23999999999999488,
+          "next_input_relative_fro": 0.007687086367152523,
+          "max_input_relative_fro": 0.30854413474632947,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.007687086367152523,
+            "7": 0.30854413474632947
+          },
+          "downstream_sampled_flip_percent": 3.1612335689484126,
+          "downstream_margin_delta_rms": 0.31037431760179585
+        },
+        "layer_6_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.28,
+          "prediction_disagreement_percent": 1.6,
+          "relative_logit_fro": 0.05139118805527687,
+          "mean_abs_probability_change": 0.0005954804946668446,
+          "accuracy_delta_pp": 0.20000000000000284,
+          "next_input_relative_fro": 0.006817380445441539,
+          "max_input_relative_fro": 0.006817380445441539,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.006817380445441539
+          },
+          "downstream_sampled_flip_percent": 0.891805289824263,
+          "downstream_margin_delta_rms": 0.12163763103111148
+        },
+        "layer_7_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.08,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "CIFAR-100 FP32",
+      "seed": 43,
+      "depth": 8,
+      "metrics": {
+        "B": {
+          "samples": 5000,
+          "accuracy_percent": 74.26,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.64,
+          "prediction_disagreement_percent": 9.88,
+          "relative_logit_fro": 0.13338512182235718,
+          "mean_abs_probability_change": 0.002177394228056073,
+          "accuracy_delta_pp": -0.6200000000000045,
+          "next_input_relative_fro": 0.00012418942319955109,
+          "max_input_relative_fro": 0.7367186919759185,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.00012418942319955109,
+            "2": 0.07754136942078171,
+            "3": 0.19289245388086262,
+            "4": 0.32571363851042057,
+            "5": 0.4272943372288859,
+            "6": 0.5879254532020682,
+            "7": 0.7367186919759185
+          },
+          "downstream_sampled_flip_percent": 5.99415454425818,
+          "downstream_margin_delta_rms": 0.48711061196776095
+        },
+        "layer_1_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.88,
+          "prediction_disagreement_percent": 10.02,
+          "relative_logit_fro": 0.13334034383296967,
+          "mean_abs_probability_change": 0.002189477439969778,
+          "accuracy_delta_pp": -0.38000000000000966,
+          "next_input_relative_fro": 0.005462536915409478,
+          "max_input_relative_fro": 0.7326048222923125,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.005462536915409478,
+            "3": 0.17137935657873024,
+            "4": 0.3146410798375189,
+            "5": 0.4191943421860221,
+            "6": 0.5815670661071548,
+            "7": 0.7326048222923125
+          },
+          "downstream_sampled_flip_percent": 6.914724982875095,
+          "downstream_margin_delta_rms": 0.5227955880670975
+        },
+        "layer_2_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.8,
+          "prediction_disagreement_percent": 9.18,
+          "relative_logit_fro": 0.12412451207637787,
+          "mean_abs_probability_change": 0.002021644962951541,
+          "accuracy_delta_pp": -0.46000000000000796,
+          "next_input_relative_fro": 0.009067857014128867,
+          "max_input_relative_fro": 0.6747734735891597,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.009067857014128867,
+            "4": 0.19814672868487723,
+            "5": 0.3278250198654947,
+            "6": 0.5018171613278506,
+            "7": 0.6747734735891597
+          },
+          "downstream_sampled_flip_percent": 6.372513197987528,
+          "downstream_margin_delta_rms": 0.5002745569712924
+        },
+        "layer_3_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.92,
+          "prediction_disagreement_percent": 8.58,
+          "relative_logit_fro": 0.11330060660839081,
+          "mean_abs_probability_change": 0.001795122749172151,
+          "accuracy_delta_pp": -0.3400000000000034,
+          "next_input_relative_fro": 0.010413511405740405,
+          "max_input_relative_fro": 0.6021294123073057,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.010413511405740405,
+            "5": 0.19393608975902282,
+            "6": 0.39708212081298344,
+            "7": 0.6021294123073057
+          },
+          "downstream_sampled_flip_percent": 5.6303824426906175,
+          "downstream_margin_delta_rms": 0.4717483255840565
+        },
+        "layer_4_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.06,
+          "prediction_disagreement_percent": 6.6,
+          "relative_logit_fro": 0.10049168765544891,
+          "mean_abs_probability_change": 0.0015210440615192056,
+          "accuracy_delta_pp": -0.20000000000000284,
+          "next_input_relative_fro": 0.011043153639548556,
+          "max_input_relative_fro": 0.5123775276567242,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.011043153639548556,
+            "6": 0.26112784495417946,
+            "7": 0.5123775276567242
+          },
+          "downstream_sampled_flip_percent": 4.850786343183106,
+          "downstream_margin_delta_rms": 0.4389440835526932
+        },
+        "layer_5_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.06,
+          "prediction_disagreement_percent": 3.66,
+          "relative_logit_fro": 0.08077750355005264,
+          "mean_abs_probability_change": 0.0011052334448322654,
+          "accuracy_delta_pp": -0.20000000000000284,
+          "next_input_relative_fro": 0.007188625741794818,
+          "max_input_relative_fro": 0.309829852513145,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.007188625741794818,
+            "7": 0.309829852513145
+          },
+          "downstream_sampled_flip_percent": 3.0882958652210886,
+          "downstream_margin_delta_rms": 0.33355297095479536
+        },
+        "layer_6_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.12,
+          "prediction_disagreement_percent": 1.44,
+          "relative_logit_fro": 0.04985992610454559,
+          "mean_abs_probability_change": 0.0005694724386557937,
+          "accuracy_delta_pp": -0.14000000000000057,
+          "next_input_relative_fro": 0.005882759079974762,
+          "max_input_relative_fro": 0.005882759079974762,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.005882759079974762
+          },
+          "downstream_sampled_flip_percent": 0.6963267077664399,
+          "downstream_margin_delta_rms": 0.11554046190791682
+        },
+        "layer_7_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.26,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "CIFAR-100 FP32",
+      "seed": 44,
+      "depth": 8,
+      "metrics": {
+        "B": {
+          "samples": 5000,
+          "accuracy_percent": 74.88,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.68,
+          "prediction_disagreement_percent": 10.64,
+          "relative_logit_fro": 0.13599610328674316,
+          "mean_abs_probability_change": 0.002225736854597926,
+          "accuracy_delta_pp": -0.19999999999998863,
+          "next_input_relative_fro": 0.00011708188847048395,
+          "max_input_relative_fro": 0.7323161654087984,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.00011708188847048395,
+            "2": 0.08044180631833658,
+            "3": 0.21071515517957576,
+            "4": 0.32377340087913975,
+            "5": 0.44191117466117424,
+            "6": 0.5780022332965488,
+            "7": 0.7323161654087984
+          },
+          "downstream_sampled_flip_percent": 5.485544059513686,
+          "downstream_margin_delta_rms": 0.4432840552547639
+        },
+        "layer_1_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.34,
+          "prediction_disagreement_percent": 10.4,
+          "relative_logit_fro": 0.13455383479595184,
+          "mean_abs_probability_change": 0.0022298654075711966,
+          "accuracy_delta_pp": -0.539999999999992,
+          "next_input_relative_fro": 0.0051720094548267995,
+          "max_input_relative_fro": 0.7280974865017679,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0051720094548267995,
+            "3": 0.183786453892697,
+            "4": 0.31014697937597735,
+            "5": 0.43240457900570883,
+            "6": 0.5705691838741873,
+            "7": 0.7280974865017679
+          },
+          "downstream_sampled_flip_percent": 6.3057343705711455,
+          "downstream_margin_delta_rms": 0.47480631185527583
+        },
+        "layer_2_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.22,
+          "prediction_disagreement_percent": 9.22,
+          "relative_logit_fro": 0.12578314542770386,
+          "mean_abs_probability_change": 0.0020256496500223875,
+          "accuracy_delta_pp": -0.6599999999999966,
+          "next_input_relative_fro": 0.00841306829975012,
+          "max_input_relative_fro": 0.6697498458107747,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.00841306829975012,
+            "4": 0.18841602231391555,
+            "5": 0.338543028809969,
+            "6": 0.4911985861150182,
+            "7": 0.6697498458107747
+          },
+          "downstream_sampled_flip_percent": 5.867020310728458,
+          "downstream_margin_delta_rms": 0.45877334780354845
+        },
+        "layer_3_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.46,
+          "prediction_disagreement_percent": 8.18,
+          "relative_logit_fro": 0.11508970707654953,
+          "mean_abs_probability_change": 0.0018117704894393682,
+          "accuracy_delta_pp": -0.4200000000000017,
+          "next_input_relative_fro": 0.010314147358352989,
+          "max_input_relative_fro": 0.6005296101629535,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.010314147358352989,
+            "5": 0.2121638434910347,
+            "6": 0.3924524789362004,
+            "7": 0.6005296101629535
+          },
+          "downstream_sampled_flip_percent": 5.334396535306831,
+          "downstream_margin_delta_rms": 0.4380729101992011
+        },
+        "layer_4_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.46,
+          "prediction_disagreement_percent": 6.68,
+          "relative_logit_fro": 0.10199172049760818,
+          "mean_abs_probability_change": 0.001553653390146792,
+          "accuracy_delta_pp": -0.4200000000000017,
+          "next_input_relative_fro": 0.010494648471143288,
+          "max_input_relative_fro": 0.5046437133036493,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.010494648471143288,
+            "6": 0.247361719924759,
+            "7": 0.5046437133036493
+          },
+          "downstream_sampled_flip_percent": 4.629306692294974,
+          "downstream_margin_delta_rms": 0.40788236910900394
+        },
+        "layer_5_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.84,
+          "prediction_disagreement_percent": 5.1,
+          "relative_logit_fro": 0.08289119601249695,
+          "mean_abs_probability_change": 0.0011459047673270106,
+          "accuracy_delta_pp": -0.03999999999999204,
+          "next_input_relative_fro": 0.0082749820051515,
+          "max_input_relative_fro": 0.32143968863036876,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0082749820051515,
+            "7": 0.32143968863036876
+          },
+          "downstream_sampled_flip_percent": 3.237838918119331,
+          "downstream_margin_delta_rms": 0.3260863223257847
+        },
+        "layer_6_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.74,
+          "prediction_disagreement_percent": 2.12,
+          "relative_logit_fro": 0.052505072206258774,
+          "mean_abs_probability_change": 0.0006074522971175611,
+          "accuracy_delta_pp": -0.14000000000000057,
+          "next_input_relative_fro": 0.00693614966326052,
+          "max_input_relative_fro": 0.00693614966326052,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.00693614966326052
+          },
+          "downstream_sampled_flip_percent": 0.8348114636479592,
+          "downstream_margin_delta_rms": 0.12483220212905431
+        },
+        "layer_7_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.88,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "CIFAR-100 FP32",
+      "seed": 45,
+      "depth": 8,
+      "metrics": {
+        "B": {
+          "samples": 5000,
+          "accuracy_percent": 74.06,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.14,
+          "prediction_disagreement_percent": 10.3,
+          "relative_logit_fro": 0.1282530128955841,
+          "mean_abs_probability_change": 0.0021470454521477222,
+          "accuracy_delta_pp": 0.0799999999999983,
+          "next_input_relative_fro": 0.00011568764582567754,
+          "max_input_relative_fro": 0.7081717136700457,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.00011568764582567754,
+            "2": 0.07268470985473212,
+            "3": 0.18775893061691962,
+            "4": 0.2997208154606181,
+            "5": 0.413734232772036,
+            "6": 0.5598906264674476,
+            "7": 0.7081717136700457
+          },
+          "downstream_sampled_flip_percent": 5.221402409550129,
+          "downstream_margin_delta_rms": 0.4292438250922745
+        },
+        "layer_1_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.58,
+          "prediction_disagreement_percent": 10.44,
+          "relative_logit_fro": 0.12871280312538147,
+          "mean_abs_probability_change": 0.0021883617155253887,
+          "accuracy_delta_pp": -0.480000000000004,
+          "next_input_relative_fro": 0.004801386265498625,
+          "max_input_relative_fro": 0.706067500882954,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.004801386265498625,
+            "3": 0.16521428875450994,
+            "4": 0.2908573490764181,
+            "5": 0.407964537525868,
+            "6": 0.5559548206854987,
+            "7": 0.706067500882954
+          },
+          "downstream_sampled_flip_percent": 6.04645259796627,
+          "downstream_margin_delta_rms": 0.46154980838874893
+        },
+        "layer_2_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.42,
+          "prediction_disagreement_percent": 9.14,
+          "relative_logit_fro": 0.11978526413440704,
+          "mean_abs_probability_change": 0.001980768283829093,
+          "accuracy_delta_pp": -0.6400000000000006,
+          "next_input_relative_fro": 0.0080087093943099,
+          "max_input_relative_fro": 0.6500259933360915,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0080087093943099,
+            "4": 0.18025853974164605,
+            "5": 0.3181814709254028,
+            "6": 0.48001329713750235,
+            "7": 0.6500259933360915
+          },
+          "downstream_sampled_flip_percent": 5.7140199829931975,
+          "downstream_margin_delta_rms": 0.4491867898619184
+        },
+        "layer_3_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.68,
+          "prediction_disagreement_percent": 8.28,
+          "relative_logit_fro": 0.1097177267074585,
+          "mean_abs_probability_change": 0.001758204074576497,
+          "accuracy_delta_pp": -0.37999999999999545,
+          "next_input_relative_fro": 0.01042210734750352,
+          "max_input_relative_fro": 0.5809203346492329,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.01042210734750352,
+            "5": 0.19551498938333886,
+            "6": 0.38343807573886274,
+            "7": 0.5809203346492329
+          },
+          "downstream_sampled_flip_percent": 5.216658196481718,
+          "downstream_margin_delta_rms": 0.4307745931418075
+        },
+        "layer_4_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.66,
+          "prediction_disagreement_percent": 6.7,
+          "relative_logit_fro": 0.09756637364625931,
+          "mean_abs_probability_change": 0.0015433353837579489,
+          "accuracy_delta_pp": -0.4000000000000057,
+          "next_input_relative_fro": 0.010453273740737975,
+          "max_input_relative_fro": 0.48777833198941123,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.010453273740737975,
+            "6": 0.24457372209755712,
+            "7": 0.48777833198941123
+          },
+          "downstream_sampled_flip_percent": 4.468437765731292,
+          "downstream_margin_delta_rms": 0.39819149862150305
+        },
+        "layer_5_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.98,
+          "prediction_disagreement_percent": 4.9,
+          "relative_logit_fro": 0.0788082629442215,
+          "mean_abs_probability_change": 0.0011389678111299872,
+          "accuracy_delta_pp": -0.0799999999999983,
+          "next_input_relative_fro": 0.00800697029323869,
+          "max_input_relative_fro": 0.3030337647487983,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.00800697029323869,
+            "7": 0.3030337647487983
+          },
+          "downstream_sampled_flip_percent": 2.9806470114087302,
+          "downstream_margin_delta_rms": 0.3105729438717675
+        },
+        "layer_6_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.76,
+          "prediction_disagreement_percent": 2.22,
+          "relative_logit_fro": 0.04936473071575165,
+          "mean_abs_probability_change": 0.0006050848751328886,
+          "accuracy_delta_pp": -0.29999999999999716,
+          "next_input_relative_fro": 0.006831606446410397,
+          "max_input_relative_fro": 0.006831606446410397,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.006831606446410397
+          },
+          "downstream_sampled_flip_percent": 0.80300674957483,
+          "downstream_margin_delta_rms": 0.1214216626227339
+        },
+        "layer_7_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.06,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "CIFAR-100 FP32",
+      "seed": 46,
+      "depth": 8,
+      "metrics": {
+        "B": {
+          "samples": 5000,
+          "accuracy_percent": 74.08,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.44,
+          "prediction_disagreement_percent": 9.96,
+          "relative_logit_fro": 0.13056416809558868,
+          "mean_abs_probability_change": 0.00215950352139771,
+          "accuracy_delta_pp": 0.35999999999999943,
+          "next_input_relative_fro": 0.00011595239077962851,
+          "max_input_relative_fro": 0.7162284765382431,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.00011595239077962851,
+            "2": 0.07196586317943145,
+            "3": 0.19545232531549458,
+            "4": 0.3155111103826504,
+            "5": 0.44971377684686376,
+            "6": 0.5841371311359649,
+            "7": 0.7162284765382431
+          },
+          "downstream_sampled_flip_percent": 5.436700117174846,
+          "downstream_margin_delta_rms": 0.4428575622419568
+        },
+        "layer_1_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.12,
+          "prediction_disagreement_percent": 10.18,
+          "relative_logit_fro": 0.13032972812652588,
+          "mean_abs_probability_change": 0.0021515830885618925,
+          "accuracy_delta_pp": 0.04000000000000625,
+          "next_input_relative_fro": 0.005181915018744216,
+          "max_input_relative_fro": 0.7135142937588946,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.005181915018744216,
+            "3": 0.17409235075855622,
+            "4": 0.3063338555072734,
+            "5": 0.4434609102001382,
+            "6": 0.5798124670273892,
+            "7": 0.7135142937588946
+          },
+          "downstream_sampled_flip_percent": 6.327025167705972,
+          "downstream_margin_delta_rms": 0.4776079685513659
+        },
+        "layer_2_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.0,
+          "prediction_disagreement_percent": 9.04,
+          "relative_logit_fro": 0.12165427953004837,
+          "mean_abs_probability_change": 0.0019791077356785536,
+          "accuracy_delta_pp": -0.0799999999999983,
+          "next_input_relative_fro": 0.008523009260659188,
+          "max_input_relative_fro": 0.6550802921861767,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.008523009260659188,
+            "4": 0.18719833864284716,
+            "5": 0.345890562913987,
+            "6": 0.49999147115117887,
+            "7": 0.6550802921861767
+          },
+          "downstream_sampled_flip_percent": 5.9220488325538545,
+          "downstream_margin_delta_rms": 0.46335789589205223
+        },
+        "layer_3_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.06,
+          "prediction_disagreement_percent": 7.86,
+          "relative_logit_fro": 0.1110941544175148,
+          "mean_abs_probability_change": 0.0017780991038307548,
+          "accuracy_delta_pp": -0.01999999999999602,
+          "next_input_relative_fro": 0.010367409652477837,
+          "max_input_relative_fro": 0.5852895695793147,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.010367409652477837,
+            "5": 0.21479770681828014,
+            "6": 0.4011434843415693,
+            "7": 0.5852895695793147
+          },
+          "downstream_sampled_flip_percent": 5.398808693399235,
+          "downstream_margin_delta_rms": 0.4432462697312989
+        },
+        "layer_4_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.94,
+          "prediction_disagreement_percent": 6.52,
+          "relative_logit_fro": 0.09785034507513046,
+          "mean_abs_probability_change": 0.0015094104455783963,
+          "accuracy_delta_pp": -0.14000000000000057,
+          "next_input_relative_fro": 0.009212412937693643,
+          "max_input_relative_fro": 0.4822480773599619,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.009212412937693643,
+            "6": 0.24814595474668782,
+            "7": 0.4822480773599619
+          },
+          "downstream_sampled_flip_percent": 4.570172252928949,
+          "downstream_margin_delta_rms": 0.40538312479246186
+        },
+        "layer_5_center": {
+          "samples": 5000,
+          "accuracy_percent": 73.86,
+          "prediction_disagreement_percent": 4.3,
+          "relative_logit_fro": 0.07894710451364517,
+          "mean_abs_probability_change": 0.0011020549573004246,
+          "accuracy_delta_pp": -0.21999999999999886,
+          "next_input_relative_fro": 0.006774614067290354,
+          "max_input_relative_fro": 0.2895604458691548,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.006774614067290354,
+            "7": 0.2895604458691548
+          },
+          "downstream_sampled_flip_percent": 3.0476472815688775,
+          "downstream_margin_delta_rms": 0.308200895075144
+        },
+        "layer_6_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.16,
+          "prediction_disagreement_percent": 1.94,
+          "relative_logit_fro": 0.04968904331326485,
+          "mean_abs_probability_change": 0.0005938172689639032,
+          "accuracy_delta_pp": 0.0799999999999983,
+          "next_input_relative_fro": 0.006553628699191227,
+          "max_input_relative_fro": 0.006553628699191227,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.006553628699191227
+          },
+          "downstream_sampled_flip_percent": 0.8805947509212018,
+          "downstream_margin_delta_rms": 0.12462741270294697
+        },
+        "layer_7_center": {
+          "samples": 5000,
+          "accuracy_percent": 74.08,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0,
+            "5": 0.0,
+            "6": 0.0,
+            "7": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS AMP",
+      "seed": 42,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 78.6,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 78.5,
+          "prediction_disagreement_percent": 0.2,
+          "relative_logit_fro": 0.01360180601477623,
+          "mean_abs_probability_change": 0.0009581061312928796,
+          "accuracy_delta_pp": -0.09999999999999432,
+          "next_input_relative_fro": 0.0003525317924676263,
+          "max_input_relative_fro": 0.0003525317924676263,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0003525317924676263
+          },
+          "downstream_sampled_flip_percent": 0.23311941964285715,
+          "downstream_margin_delta_rms": 0.11570161188940031
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 78.6,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0014420864172279835,
+          "mean_abs_probability_change": 2.511483762646094e-05,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS AMP",
+      "seed": 43,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 77.6,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.6,
+          "prediction_disagreement_percent": 0.4,
+          "relative_logit_fro": 0.012595017440617085,
+          "mean_abs_probability_change": 0.00093021773500368,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": 0.00036207501931876057,
+          "max_input_relative_fro": 0.00036207501931876057,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.00036207501931876057
+          },
+          "downstream_sampled_flip_percent": 0.19370814732142858,
+          "downstream_margin_delta_rms": 0.08888753684971162
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.7,
+          "prediction_disagreement_percent": 0.1,
+          "relative_logit_fro": 0.0012616626918315887,
+          "mean_abs_probability_change": 2.005267197091598e-05,
+          "accuracy_delta_pp": 0.10000000000000853,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS AMP",
+      "seed": 44,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 77.7,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.6,
+          "prediction_disagreement_percent": 0.2,
+          "relative_logit_fro": 0.013875845819711685,
+          "mean_abs_probability_change": 0.0010457683820277452,
+          "accuracy_delta_pp": -0.10000000000000853,
+          "next_input_relative_fro": 0.000366037402971991,
+          "max_input_relative_fro": 0.000366037402971991,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.000366037402971991
+          },
+          "downstream_sampled_flip_percent": 0.20417131696428573,
+          "downstream_margin_delta_rms": 0.11017181830743066
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.7,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0012376467930153012,
+          "mean_abs_probability_change": 2.4555562049499713e-05,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS AMP",
+      "seed": 45,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 78.1,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 78.1,
+          "prediction_disagreement_percent": 0.3,
+          "relative_logit_fro": 0.012132593430578709,
+          "mean_abs_probability_change": 0.000884633045643568,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": 0.0003534148140952278,
+          "max_input_relative_fro": 0.0003534148140952278,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0003534148140952278
+          },
+          "downstream_sampled_flip_percent": 0.23521205357142858,
+          "downstream_margin_delta_rms": 0.10238533435655728
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 78.1,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0012170078698545694,
+          "mean_abs_probability_change": 2.0984152797609568e-05,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS AMP",
+      "seed": 46,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 77.8,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.9,
+          "prediction_disagreement_percent": 0.6,
+          "relative_logit_fro": 0.013859584927558899,
+          "mean_abs_probability_change": 0.0010397607693448663,
+          "accuracy_delta_pp": 0.10000000000000853,
+          "next_input_relative_fro": 0.0003583187082691353,
+          "max_input_relative_fro": 0.0003583187082691353,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0003583187082691353
+          },
+          "downstream_sampled_flip_percent": 0.24937220982142858,
+          "downstream_margin_delta_rms": 0.1197485871499882
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.8,
+          "prediction_disagreement_percent": 0.1,
+          "relative_logit_fro": 0.0012903480092063546,
+          "mean_abs_probability_change": 2.1231166101642884e-05,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS FP32",
+      "seed": 42,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 78.0,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 78.0,
+          "prediction_disagreement_percent": 0.2,
+          "relative_logit_fro": 0.008528074249625206,
+          "mean_abs_probability_change": 0.000541241024620831,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": 4.83003411947519e-05,
+          "max_input_relative_fro": 4.83003411947519e-05,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 4.83003411947519e-05
+          },
+          "downstream_sampled_flip_percent": 0.06438337053571429,
+          "downstream_margin_delta_rms": 0.05932046716765866
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 78.0,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS FP32",
+      "seed": 43,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 76.9,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 76.9,
+          "prediction_disagreement_percent": 0.1,
+          "relative_logit_fro": 0.008412821218371391,
+          "mean_abs_probability_change": 0.0005328542902134359,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": 5.479690352847058e-05,
+          "max_input_relative_fro": 5.479690352847058e-05,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 5.479690352847058e-05
+          },
+          "downstream_sampled_flip_percent": 0.057407924107142856,
+          "downstream_margin_delta_rms": 0.04816342232524544
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 76.9,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS FP32",
+      "seed": 44,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 77.8,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.9,
+          "prediction_disagreement_percent": 0.1,
+          "relative_logit_fro": 0.008612439036369324,
+          "mean_abs_probability_change": 0.0005696849548257887,
+          "accuracy_delta_pp": 0.10000000000000853,
+          "next_input_relative_fro": 5.939166933516301e-05,
+          "max_input_relative_fro": 5.939166933516301e-05,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 5.939166933516301e-05
+          },
+          "downstream_sampled_flip_percent": 0.072265625,
+          "downstream_margin_delta_rms": 0.06407942397285993
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.8,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS FP32",
+      "seed": 45,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 76.6,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 76.6,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.00849497877061367,
+          "mean_abs_probability_change": 0.0005489890463650227,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": 6.0096526291378406e-05,
+          "max_input_relative_fro": 6.0096526291378406e-05,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 6.0096526291378406e-05
+          },
+          "downstream_sampled_flip_percent": 0.06270926339285714,
+          "downstream_margin_delta_rms": 0.05134168673576427
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 76.6,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    },
+    {
+      "configuration": "DVS FP32",
+      "seed": 46,
+      "depth": 2,
+      "metrics": {
+        "B": {
+          "samples": 1000,
+          "accuracy_percent": 77.7,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": 0.0,
+          "downstream_margin_delta_rms": 0.0
+        },
+        "layer_0_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.7,
+          "prediction_disagreement_percent": 0.2,
+          "relative_logit_fro": 0.008898221887648106,
+          "mean_abs_probability_change": 0.000621382670942694,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": 5.436385449713904e-05,
+          "max_input_relative_fro": 5.436385449713904e-05,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 5.436385449713904e-05
+          },
+          "downstream_sampled_flip_percent": 0.06549944196428571,
+          "downstream_margin_delta_rms": 0.06374247851509886
+        },
+        "layer_1_center": {
+          "samples": 1000,
+          "accuracy_percent": 77.7,
+          "prediction_disagreement_percent": 0.0,
+          "relative_logit_fro": 0.0,
+          "mean_abs_probability_change": 0.0,
+          "accuracy_delta_pp": 0.0,
+          "next_input_relative_fro": null,
+          "max_input_relative_fro": 0.0,
+          "input_relative_fro_by_layer": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "downstream_sampled_flip_percent": null,
+          "downstream_margin_delta_rms": null
+        }
+      }
+    }
+  ]
+}

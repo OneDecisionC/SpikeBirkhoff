@@ -3,3 +3,6 @@ recursive-include LICENSES *.txt
 recursive-include configs *.yaml *.json
 recursive-include docs *.md
 recursive-include data_splits *.json *.md
+recursive-include reproduction *.py *.yaml *.json *.txt *.md
+recursive-include paper_data *.json *.md
+recursive-include scripts *.py

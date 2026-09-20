@@ -60,5 +60,3 @@ Please acknowledge the upstream research when using the associated methods:
 - Wei Fang and collaborators.
   [SpikingJelly: An open-source machine learning infrastructure platform for spike-based intelligence](https://doi.org/10.1126/sciadv.adi1480).
   Science Advances 9(40), eadi1480, 2023.
-
-Academic citations supplement the license notices; they do not replace them.

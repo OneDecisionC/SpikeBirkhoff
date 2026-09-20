@@ -1,0 +1,59 @@
+{
+  "configs": [
+    "cifar100_d8_t4",
+    "cifar100_d16_t4"
+  ],
+  "methods": [
+    "S",
+    "B",
+    "I",
+    "A0"
+  ],
+  "epochs": 210,
+  "split_seed": 20260916,
+  "selection": "Highest validation top1 across epochs 0..209; earliest epoch on ties. model_best.pth.tar only.",
+  "primary_contrast": "Paired B minus A0 internal-test top1 percentage points, separately by depth",
+  "secondary_contrasts": [
+    "B minus S",
+    "B minus I"
+  ],
+  "precision": "FP32; TF32 and cuDNN benchmark disabled; same frozen model, optimizer and schedule as preceding protocol",
+  "historical_limitations": "This is a frozen-protocol internal holdout replication after exploratory development. All 50000 source examples have been used in historical training, and official-test feedback influenced earlier design. Resplitting does not erase this history or create a wholly independent confirmation. Do not pool old or cancelled runs with new results.",
+  "operational_overrides": {
+    "workers": 4,
+    "checkpoint_hist": 1,
+    "log_interval": 200
+  },
+  "protocol_id": "cifar100_five_seed_reproduction",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "server": "configured-by-stage",
+  "remote_root": "configured-by-stage",
+  "python": "configured-by-stage",
+  "data_root": "configured-by-stage",
+  "gpu_by_method": {
+    "S": 0,
+    "B": 1,
+    "I": 2,
+    "A0": 3
+  },
+  "lanes": [
+    [
+      "S"
+    ],
+    [
+      "B"
+    ],
+    [
+      "I"
+    ],
+    [
+      "A0"
+    ]
+  ]
+}

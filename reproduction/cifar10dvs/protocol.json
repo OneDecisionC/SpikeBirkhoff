@@ -1,0 +1,19 @@
+{
+  "dataset": "CIFAR10-DVS",
+  "config": "config.yaml",
+  "methods": ["S", "B", "I", "A0"],
+  "seeds": [42, 43, 44, 45, 46],
+  "epochs": 210,
+  "split_seed": 20260919,
+  "partition_counts": {"train": 8000, "validation": 1000, "internal_test": 1000},
+  "split_rule": "1000 recordings per class, stratified 800/100/100; all 16 frames of a recording stay together.",
+  "selection": "Maximum validation top1, earliest epoch on ties; no test-monitored selection.",
+  "precision": "Historical CIFAR10-DVS native AMP + TET recipe; validation and final evaluation both use CUDA autocast and half inputs. No claim of matching the FP32 protocol of other datasets.",
+  "test_policy": "All 20 complete runs and selected checkpoint hashes must be frozen before each selected checkpoint is evaluated once on the internal test. Smoke tests use validation only.",
+  "primary_contrast": "B-A0",
+  "secondary_contrasts": ["B-S", "B-I"],
+  "reporting": "All five paired seeds; mean and sample SD ddof=1; paired differences; failures retained. No automatic significance claim.",
+  "historical_limitations": "Dataset previously used in exploratory development. Resplitting and fresh initialization do not erase historical test-guided choices. Do not pool the older 9000/1000 results with this 8000/1000/1000 protocol.",
+  "resume_policy": "Skip only already completed verified jobs. An interrupted training job is not auto-resumed: RNG/data-loader state is not fully restored by legacy checkpoints. Never silently restart or change its seed.",
+  "safety": "One independent job per selected idle GPU; no distributed training, no process killing, no automatic deletion. Existing/failed outputs are preserved. No test retries after a started test without explicit review."
+}

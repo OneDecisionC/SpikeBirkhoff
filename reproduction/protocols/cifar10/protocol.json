@@ -1,0 +1,58 @@
+{
+  "configs": [
+    "cifar10_d6_t4"
+  ],
+  "methods": [
+    "S",
+    "B",
+    "I",
+    "A0"
+  ],
+  "epochs": 210,
+  "split_seed": 20260916,
+  "selection": "Highest validation top1, earliest tie, one internal-test evaluation per selected checkpoint.",
+  "primary_contrast": "B-A0",
+  "secondary_contrasts": [
+    "B-S",
+    "B-I"
+  ],
+  "precision": "FP32; Torch1.13.1+cu117, timm0.6.12, NumPy1.23.5 on both servers. Historical CIFAR10 used Torch2.2.2; do not pool old results.",
+  "historical_limitations": "Exploratory development previously used official-test feedback and these original training images; new internal holdout does not erase historical bias.",
+  "operational_overrides": {
+    "workers": 4,
+    "checkpoint_hist": 1,
+    "log_interval": 200
+  },
+  "protocol_id": "cifar10_five_seed_reproduction",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "server": "configured-by-stage",
+  "remote_root": "configured-by-stage",
+  "python": "configured-by-stage",
+  "data_root": "configured-by-stage",
+  "gpu_by_method": {
+    "S": 0,
+    "B": 1,
+    "I": 2,
+    "A0": 3
+  },
+  "lanes": [
+    [
+      "S"
+    ],
+    [
+      "B"
+    ],
+    [
+      "I"
+    ],
+    [
+      "A0"
+    ]
+  ]
+}
